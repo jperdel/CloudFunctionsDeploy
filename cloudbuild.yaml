@@ -1,0 +1,17 @@
+steps:
+
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    args:
+      - 'gcloud'
+      - 'functions'
+      - 'deploy'
+      - 'silver2gold-pipeline'
+      - '--region=europe-west1'
+      - '--source=.'
+      - '--entry-point=data_aggregation_pipeline'
+      - '--runtime=python311'
+      - '--trigger-http'
+      - '--memory=512MB'
+
+options:
+  logging: CLOUD_LOGGING_ONLY
