@@ -1,0 +1,9 @@
+db-dtypes
+fastparquet
+loguru
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-bigquery-storage
+pandas
+pandas-gbq
+pyarrow
