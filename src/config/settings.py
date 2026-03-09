@@ -13,3 +13,5 @@ SELECT *
 FROM `bigquery-public-data.ml_datasets.penguins`
 LIMIT 10
 """
+
+# TODO: días de antigüedad, rangos de ventana, definiciones de segmentos de interés. Ver una vez desarrollado el código de segmentación.
