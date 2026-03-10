@@ -7,3 +7,5 @@ google-cloud-bigquery-storage
 pandas
 pandas-gbq
 pyarrow
+google-cloud-dataplex
+google-cloud-datacatalog-lineage
